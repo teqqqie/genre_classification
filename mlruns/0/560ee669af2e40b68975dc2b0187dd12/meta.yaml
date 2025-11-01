@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/560ee669af2e40b68975dc2b0187dd12/artifacts
+end_time: 1761930847428
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 560ee669af2e40b68975dc2b0187dd12
+run_name: powerful-auk-108
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761930767254
+status: 4
+tags: []
+user_id: teqqqie

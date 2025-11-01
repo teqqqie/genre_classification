@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/823cb42fe7e04e5db9cfcb63fe4b1d09/artifacts
+end_time: 1761932905834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 823cb42fe7e04e5db9cfcb63fe4b1d09
+run_name: marvelous-cub-677
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932893568
+status: 3
+tags: []
+user_id: teqqqie

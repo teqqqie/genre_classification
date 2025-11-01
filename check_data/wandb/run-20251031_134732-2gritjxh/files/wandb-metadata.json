@@ -1,0 +1,48 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.13.9",
+  "startedAt": "2025-10-31T17:47:32.303766Z",
+  "args": [
+    "-s",
+    "-vv",
+    ".",
+    "--reference_artifact",
+    "exercise_14/preprocessed_data.csv:latest",
+    "--sample_artifact",
+    "preprocessed_data.csv:latest",
+    "--ks_alpha",
+    "0.05"
+  ],
+  "program": "/home/teqqqie/miniconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/pytest",
+  "git": {
+    "remote": "https://github.com/teqqqie/genre_classification",
+    "commit": "6abe5c89432961258b8b23381bb09b6d7db7a61b"
+  },
+  "email": "caleb.poock@gmail.com",
+  "root": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/check_data",
+  "host": "TEQQQIE-OMEN",
+  "executable": "/home/teqqqie/miniconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/python3.13",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "23021514752"
+    }
+  },
+  "memory": {
+    "total": "6127030272"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060",
+      "memoryTotal": "6442450944",
+      "architecture": "Turing",
+      "uuid": "GPU-d20e5bde-8945-eb88-02df-135f44ffffa8"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "xv5tech3uquulye9tggxmczdqm6aei59"
+}

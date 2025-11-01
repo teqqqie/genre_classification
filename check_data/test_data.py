@@ -1,6 +1,13 @@
 import scipy.stats
 import pandas as pd
+import numpy as np
 
+
+def _clean_series(s: pd.Series) -> pd.Series:
+    # Convert to numeric (coerce bad strings), drop NaN/inf
+    s = pd.to_numeric(s, errors="coerce")
+    s = s.replace([np.inf, -np.inf], np.nan).dropna()
+    return s
 
 def test_column_presence_and_type(data):
 
@@ -111,7 +118,12 @@ def test_kolmogorov_smirnov(data, ks_alpha):
 
     for col in columns:
 
-        ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
+        s1 = _clean_series(sample1[col])
+        s2 = _clean_series(sample2[col])
+        
+        assert len(s1) > 0 and len(s2) > 0, f"Empty series after cleaning for column: {col}"
+
+        ts, p_value = scipy.stats.ks_2samp(s1, s2)
 
         # NOTE: as always, the p-value should be interpreted as the probability of
         # obtaining a test statistic (TS) equal or more extreme that the one we got

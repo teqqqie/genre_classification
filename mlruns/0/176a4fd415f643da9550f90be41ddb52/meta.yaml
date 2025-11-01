@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/176a4fd415f643da9550f90be41ddb52/artifacts
+end_time: 1761932406367
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 176a4fd415f643da9550f90be41ddb52
+run_name: righteous-goat-105
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932325203
+status: 3
+tags: []
+user_id: teqqqie

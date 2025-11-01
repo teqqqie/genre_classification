@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/9f67722a5b70462a9838229c48bda38c/artifacts
+end_time: 1761932151940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f67722a5b70462a9838229c48bda38c
+run_name: silent-wasp-979
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932144999
+status: 3
+tags: []
+user_id: teqqqie

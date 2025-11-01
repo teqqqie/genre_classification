@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/a2e16823fa1547dea4338c2b02c3064b/artifacts
+end_time: 1761932866608
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2e16823fa1547dea4338c2b02c3064b
+run_name: adaptable-gnu-226
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932857166
+status: 3
+tags: []
+user_id: teqqqie

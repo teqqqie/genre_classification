@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/623d61ea17374f1ba7f9d8d6835a4dfa/artifacts
+end_time: 1761933430172
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 623d61ea17374f1ba7f9d8d6835a4dfa
+run_name: exultant-loon-549
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761933422165
+status: 3
+tags: []
+user_id: teqqqie

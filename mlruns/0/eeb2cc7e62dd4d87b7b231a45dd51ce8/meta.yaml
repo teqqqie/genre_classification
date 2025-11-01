@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/eeb2cc7e62dd4d87b7b231a45dd51ce8/artifacts
+end_time: 1761933493166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eeb2cc7e62dd4d87b7b231a45dd51ce8
+run_name: receptive-horse-293
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761933482992
+status: 3
+tags: []
+user_id: teqqqie

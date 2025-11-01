@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/24be5dce509844428a0d4ee6a5db1519/artifacts
+end_time: 1761932463557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24be5dce509844428a0d4ee6a5db1519
+run_name: entertaining-pug-751
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932406378
+status: 4
+tags: []
+user_id: teqqqie

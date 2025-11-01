@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/07673732f86b41c9bd1e0b36940e3476/artifacts
+end_time: 1761932144987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07673732f86b41c9bd1e0b36940e3476
+run_name: treasured-snipe-832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932138483
+status: 3
+tags: []
+user_id: teqqqie

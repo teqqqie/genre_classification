@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/201873b802034d7cb98d48539cd0d9ba/artifacts
+end_time: 1761931601661
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 201873b802034d7cb98d48539cd0d9ba
+run_name: brawny-swan-366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761931570649
+status: 3
+tags: []
+user_id: teqqqie

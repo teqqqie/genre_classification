@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/86ef48a37a1c452b978fb419a8585592/artifacts
+end_time: 1761933447155
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86ef48a37a1c452b978fb419a8585592
+run_name: gentle-bear-426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761933438621
+status: 3
+tags: []
+user_id: teqqqie

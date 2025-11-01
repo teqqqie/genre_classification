@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/dfd85443c32a4e2cb3669b3100717f85/artifacts
+end_time: 1761933458177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dfd85443c32a4e2cb3669b3100717f85
+run_name: inquisitive-crow-783
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761933447165
+status: 3
+tags: []
+user_id: teqqqie

@@ -1,0 +1,53 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.13.9",
+  "startedAt": "2025-10-31T17:38:38.019929Z",
+  "args": [
+    "--input_artifact",
+    "preprocessed_data.csv:latest",
+    "--artifact_root",
+    "data",
+    "--artifact_type",
+    "segregated_data",
+    "--test_size",
+    "0.3",
+    "--random_state",
+    "42",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/segregate/run.py",
+  "codePath": "segregate/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/teqqqie/genre_classification",
+    "commit": "6abe5c89432961258b8b23381bb09b6d7db7a61b"
+  },
+  "email": "caleb.poock@gmail.com",
+  "root": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/segregate",
+  "host": "TEQQQIE-OMEN",
+  "executable": "/home/teqqqie/miniconda3/envs/mlflow-2b05c334639a6588d5c96ec48ecc7de59f6ca254/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "22223007744"
+    }
+  },
+  "memory": {
+    "total": "6127030272"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060",
+      "memoryTotal": "6442450944",
+      "architecture": "Turing",
+      "uuid": "GPU-d20e5bde-8945-eb88-02df-135f44ffffa8"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "a0eh2sa7x9iohyo6ovc2izrsuinlpb3r"
+}

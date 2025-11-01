@@ -1,0 +1,49 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.13.9",
+  "startedAt": "2025-10-31T17:35:41.922163Z",
+  "args": [
+    "--file_url",
+    "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+    "--artifact_name",
+    "raw_data.parquet",
+    "--artifact_type",
+    "raw_data",
+    "--artifact_description",
+    "Data as downloaded"
+  ],
+  "program": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/download/download_data.py",
+  "codePath": "download/download_data.py",
+  "codePathLocal": "download_data.py",
+  "git": {
+    "remote": "https://github.com/teqqqie/genre_classification",
+    "commit": "6abe5c89432961258b8b23381bb09b6d7db7a61b"
+  },
+  "email": "caleb.poock@gmail.com",
+  "root": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/download",
+  "host": "TEQQQIE-OMEN",
+  "executable": "/home/teqqqie/miniconda3/envs/mlflow-c8796fcdf2a60e9d2d7a0e2de87ce7cf78fe7920/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "21818187776"
+    }
+  },
+  "memory": {
+    "total": "6127030272"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060",
+      "memoryTotal": "6442450944",
+      "architecture": "Turing",
+      "uuid": "GPU-d20e5bde-8945-eb88-02df-135f44ffffa8"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "7ombh6v3zqizpm7o264yyfea67ug8n95"
+}

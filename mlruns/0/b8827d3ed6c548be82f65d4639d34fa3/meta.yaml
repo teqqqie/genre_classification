@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/b8827d3ed6c548be82f65d4639d34fa3/artifacts
+end_time: 1761932848215
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b8827d3ed6c548be82f65d4639d34fa3
+run_name: crawling-boar-637
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932840346
+status: 3
+tags: []
+user_id: teqqqie

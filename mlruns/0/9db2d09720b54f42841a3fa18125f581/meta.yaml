@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/9db2d09720b54f42841a3fa18125f581/artifacts
+end_time: 1761932840335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9db2d09720b54f42841a3fa18125f581
+run_name: angry-cod-930
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932831705
+status: 3
+tags: []
+user_id: teqqqie

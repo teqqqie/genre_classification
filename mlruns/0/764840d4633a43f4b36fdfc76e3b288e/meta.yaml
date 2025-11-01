@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/764840d4633a43f4b36fdfc76e3b288e/artifacts
+end_time: 1761932160643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 764840d4633a43f4b36fdfc76e3b288e
+run_name: sedate-grouse-683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761932151949
+status: 4
+tags: []
+user_id: teqqqie

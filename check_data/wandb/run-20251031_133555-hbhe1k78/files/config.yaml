@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            ofyxzs0r263tbc55twxxhk0m718x7tc3:
+                args:
+                    - -s
+                    - -vv
+                    - .
+                    - --reference_artifact
+                    - exercise_14/preprocessed_data.csv:latest
+                    - --sample_artifact
+                    - preprocessed_data.csv:latest
+                    - --ks_alpha
+                    - "0.05"
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "21818478592"
+                email: caleb.poock@gmail.com
+                executable: /home/teqqqie/miniconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/python3.13
+                git:
+                    commit: 6abe5c89432961258b8b23381bb09b6d7db7a61b
+                    remote: https://github.com/teqqqie/genre_classification
+                gpu: NVIDIA GeForce RTX 2060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 2060
+                      uuid: GPU-d20e5bde-8945-eb88-02df-135f44ffffa8
+                host: TEQQQIE-OMEN
+                memory:
+                    total: "6127030272"
+                os: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /home/teqqqie/miniconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/pytest
+                python: CPython 3.13.9
+                root: /home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/check_data
+                startedAt: "2025-10-31T17:35:55.533539Z"
+                writerId: ofyxzs0r263tbc55twxxhk0m718x7tc3
+        m: []
+        python_version: 3.13.9
+        t:
+            "4": 3.13.9
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
