@@ -1,0 +1,53 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.13.9",
+  "startedAt": "2025-11-01T03:19:58.079168Z",
+  "args": [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/outputs/2025-10-31/23-19-19/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/random_forest/run.py",
+  "codePath": "random_forest/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/teqqqie/genre_classification",
+    "commit": "5d350336b9baee8e62249300bc8b8627980cd3af"
+  },
+  "email": "caleb.poock@gmail.com",
+  "root": "/home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/random_forest",
+  "host": "TEQQQIE-OMEN",
+  "executable": "/home/teqqqie/miniconda3/envs/mlflow-a3629828cd971ffe646011f938d3373bb5d5ef95/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "23078273024"
+    }
+  },
+  "memory": {
+    "total": "6127042560"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060",
+      "memoryTotal": "6442450944",
+      "architecture": "Turing",
+      "uuid": "GPU-d20e5bde-8945-eb88-02df-135f44ffffa8"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "mic92oowhbjrzujxyaev8hv4thpja4q2"
+}

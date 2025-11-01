@@ -15,8 +15,8 @@ flavors:
 is_signature_from_type_hint: false
 mlflow_version: 3.2.0
 model_id: null
-model_size_bytes: 5218470
-model_uuid: 6a2ef48a98164449be706384d64e743b
+model_size_bytes: 7268502
+model_uuid: 5194ab3f5ba342d58bb0d34e6e51786c
 prompts: null
 saved_input_example_info:
   artifact_path: input_example.json
@@ -37,4 +37,4 @@ signature:
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
   params: null
 type_hint_from_example: false
-utc_time_created: '2025-10-31 17:48:05.687835'
+utc_time_created: '2025-11-01 03:20:05.731717'

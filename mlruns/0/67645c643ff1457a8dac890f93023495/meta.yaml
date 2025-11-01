@@ -1,0 +1,14 @@
+artifact_uri: file:///home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/67645c643ff1457a8dac890f93023495/artifacts
+end_time: 1761967173518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67645c643ff1457a8dac890f93023495
+run_name: exultant-donkey-279
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761967165995
+status: 3
+tags: []
+user_id: teqqqie

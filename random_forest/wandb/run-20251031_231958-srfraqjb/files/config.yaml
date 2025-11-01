@@ -1,0 +1,106 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            mic92oowhbjrzujxyaev8hv4thpja4q2:
+                args:
+                    - --train_data
+                    - data_train.csv:latest
+                    - --model_config
+                    - /home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/outputs/2025-10-31/23-19-19/random_forest_config.yml
+                    - --export_artifact
+                    - model_export
+                    - --random_seed
+                    - "42"
+                    - --val_size
+                    - "0.3"
+                    - --stratify
+                    - genre
+                codePath: random_forest/run.py
+                codePathLocal: run.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "23078273024"
+                email: caleb.poock@gmail.com
+                executable: /home/teqqqie/miniconda3/envs/mlflow-a3629828cd971ffe646011f938d3373bb5d5ef95/bin/python
+                git:
+                    commit: 5d350336b9baee8e62249300bc8b8627980cd3af
+                    remote: https://github.com/teqqqie/genre_classification
+                gpu: NVIDIA GeForce RTX 2060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 2060
+                      uuid: GPU-d20e5bde-8945-eb88-02df-135f44ffffa8
+                host: TEQQQIE-OMEN
+                memory:
+                    total: "6127042560"
+                os: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/random_forest/run.py
+                python: CPython 3.13.9
+                root: /home/teqqqie/D501-Exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/random_forest
+                startedAt: "2025-11-01T03:19:58.079168Z"
+                writerId: mic92oowhbjrzujxyaev8hv4thpja4q2
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 62
+            "4": 3.13.9
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+export_artifact:
+    value: model_export
+features:
+    value:
+        categorical:
+            - time_signature
+            - key
+        nlp:
+            - text_feature
+        numerical:
+            - danceability
+            - energy
+            - loudness
+            - speechiness
+            - acousticness
+            - instrumentalness
+            - liveness
+            - valence
+            - tempo
+            - duration_ms
+random_forest:
+    value:
+        bootstrap: true
+        ccp_alpha: 0
+        class_weight: balanced
+        criterion: gini
+        max_depth: 13
+        max_features: 10
+        max_leaf_nodes: null
+        max_samples: null
+        min_impurity_decrease: 0
+        min_samples_leaf: 1
+        min_samples_split: 2
+        min_weight_fraction_leaf: 0
+        n_estimators: 100
+        n_jobs: null
+        oob_score: false
+        random_state: 42
+        verbose: 0
+        warm_start: false
+tfidf:
+    value:
+        max_features: 10
